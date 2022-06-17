@@ -1,12 +1,19 @@
 * {
   margin: 0px;
   padding: 0%;
+  box-sizing: border-box;
+  /* background-color: black; */
 }
 
 body {
-  /* background-color: black; */
+  box-sizing: border-box;
+  background-color: black;
+  width: 50%;
+  height: 50%;
+  margin: 30%;
 }
 
 main {
-  /* background-color: black; */
+  background-color: whitesmoke;
+  display: flex;
 }
