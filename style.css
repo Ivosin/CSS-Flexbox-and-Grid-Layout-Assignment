@@ -10,34 +10,47 @@ body {
 }
 
 main {
-  height: 70vh;
-  width: 70vh;
-  margin: 20vh;
+  height: 80vh;
+  width: 160vh;
+  margin: 10vh 25vh;
   border-radius: 5px;
   background-color: #f2f2f2;
   display: flex;
   align-items: center;
 }
 
+.icons {
+  margin-bottom: 5px;
+}
+
 .sedan {
+  padding: 5%;
   color: white;
   background-color: #e28525;
   height: auto;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .suvs {
+  padding: 5%;
   color: white;
   background-color: #016972;
+  height: auto;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .luxury {
+  padding: 5%;
   color: white;
   background-color: #00403f;
+  height: auto;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .fixed {
-  border-radius: 5px;
+  /* border: 5px solid; */
+  border-radius: 10px;
   display: flex;
-  padding: 0% 10%;
+  margin: 0% 15%;
   height: 70%;
 }
