@@ -5,11 +5,13 @@
 
 body {
   background-color: black;
+  box-sizing: border-box;
   /* align-items: 50%; */
   /* justify-content: center; */
 }
 
 main {
+  box-sizing: border-box;
   height: 80vh;
   width: 160vh;
   margin: 10vh 25vh;
@@ -19,11 +21,8 @@ main {
   align-items: center;
 }
 
-.icons {
-  margin-bottom: 5px;
-}
-
 .sedan {
+  box-sizing: border-box;
   padding: 5%;
   color: white;
   background-color: #e28525;
@@ -32,6 +31,7 @@ main {
 }
 
 .suvs {
+  box-sizing: border-box;
   padding: 5%;
   color: white;
   background-color: #016972;
@@ -40,6 +40,7 @@ main {
 }
 
 .luxury {
+  box-sizing: border-box;
   padding: 5%;
   color: white;
   background-color: #00403f;
@@ -53,4 +54,46 @@ main {
   display: flex;
   margin: 0% 15%;
   height: 70%;
+}
+
+.button1 {
+  margin: 40% 0%;
+  border: 2px solid white;
+  border-radius: 40px;
+  width: 80%;
+  height: 40px;
+  color: #e28525;
+}
+
+.button1:hover {
+  background-color: #e28525;
+  color: white;
+}
+
+.button2 {
+  margin: 50% 0%;
+  border: 2px solid white;
+  border-radius: 40px;
+  width: 80%;
+  height: 40px;
+  color: #016972;
+}
+
+.button2:hover {
+  background-color: #016972;
+  color: white;
+}
+
+.button3 {
+  margin: 45% 0%;
+  border: 2px solid white;
+  border-radius: 40px;
+  width: 75%;
+  height: 40px;
+  color: #00403f;
+}
+
+.button3:hover {
+  background-color: #00403f;
+  color: white;
 }
